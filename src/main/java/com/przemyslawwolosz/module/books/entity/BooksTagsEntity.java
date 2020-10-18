@@ -1,6 +1,7 @@
-package com.przemyslawwolosz.module.books;
+package com.przemyslawwolosz.module.books.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.przemyslawwolosz.module.books.entity.BooksEntity;
 
 import javax.persistence.*;
 
