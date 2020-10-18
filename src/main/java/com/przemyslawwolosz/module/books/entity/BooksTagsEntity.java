@@ -25,23 +25,26 @@ public class BooksTagsEntity {
         return id;
     }
 
-    public void setId(Long id) {
+    public BooksTagsEntity setId(Long id) {
         this.id = id;
+        return this;
     }
 
     public BooksEntity getBook() {
         return book;
     }
 
-    public void setBook(BooksEntity book) {
+    public BooksTagsEntity setBook(BooksEntity book) {
         this.book = book;
+        return this;
     }
 
     public String getValue() {
         return value;
     }
 
-    public void setValue(String value) {
+    public BooksTagsEntity setValue(String value) {
         this.value = value;
+        return this;
     }
 }

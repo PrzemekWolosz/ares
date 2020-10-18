@@ -38,8 +38,9 @@ public class BooksEntity {
 		return details;
 	}
 
-	public void setDetails(BooksDetailsEntity details) {
+	public BooksEntity setDetails(BooksDetailsEntity details) {
 		this.details = details;
+		return this;
 	}
 
 	public Long getId() {
